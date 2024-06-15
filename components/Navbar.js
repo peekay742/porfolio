@@ -21,7 +21,7 @@ const Navbar = () => {
                                 <h1 className=' font-bold text-xl cursor-pointer'>
                                     <Link href='/'>
                                         <a className='text-2xl pl-8 sm:pl-0'>
-                                            Phyo<span className='text-blue-500'>MinKhant</span>
+                                            PhyoMinKhant
                                         </a>
                                     </Link>
                                 </h1>

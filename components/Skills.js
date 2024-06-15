@@ -5,7 +5,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { SiDotnet, SiMicrosoftsqlserver, SiTailwindcss } from "react-icons/si";
+import { SiDotnet, SiJava, SiMicrosoftsqlserver, SiMongodb, SiPostgresql, SiPrisma, SiSequelize, SiSpring, SiSpringboot, SiTailwindcss } from "react-icons/si";
 import { DiDjango, DiDotnet } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
@@ -59,12 +59,36 @@ const Skills = () => {
               Dot Net Core
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiJava size="40px" />
+              Java
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiSpring size="40px" />
+              Spring Boot
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiSequelize size="40px" />
+              Sequelize
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiPrisma size="40px" />
+              Prisma
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <SiMysql size="40px" />
               Mysql
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <SiMicrosoftsqlserver size="40px" />
               MSSQL
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiPostgresql size="40px" />
+              Postgres
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <SiMongodb size="40px" />
+              MongoDB
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
               <FaBootstrap size="40px" />
